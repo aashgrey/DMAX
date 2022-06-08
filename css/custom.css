@@ -8,7 +8,7 @@
         2. TOP HEADER
         3. Nav-Bar
         4. Home 
-        5. Features
+        5. services
         6. Why Flash Pro
         7. Collection Or Screenshots Or Product Showcase
         8. Reviews Or Testimonial
@@ -334,12 +334,12 @@ section.home {
     width: 100%;
 }
 
-/********************* [ 5.Features ] **************************/
+/********************* [ 5.services ] **************************/
 
-section.features {
+section.services {
     background: #F1F1F1;
 }
-section.features img{
+section.services img{
     width: 100%;
 }
 .feature-all-wrap h1{
