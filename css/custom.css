@@ -63,6 +63,15 @@ section{
     position: relative;
     text-transform: uppercase;
 }
+.section-title-small {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+    justify-content: center;
+}
 .title-wrap .title-line {
     clear: both;
     position: relative;
