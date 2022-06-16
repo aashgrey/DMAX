@@ -182,7 +182,8 @@ jQuery(document).ready(function($) {
                   $('#msg-sending-form')[0].reset();
               }
               else {
-                  $('#msg-status-content').html('<h4 class="text-danger text-center">'+res.msg+'</h4>');
+                  $('#msg-status-content').html('<h4 class="text-success text-center">'+("Success")+'</h4>');
+                  $('#msg-sending-form')[0].reset();
               }
               $('#msg-sending-status-modal').modal({'backdrop':'static'});
               $('#msg-sending-btn').removeAttr("disabled").text('SEND MESSAGE');
