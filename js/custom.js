@@ -178,7 +178,7 @@ jQuery(document).ready(function($) {
           data:$(this).serialize(),
           success:function(res) {
               if(res.status == 'success') {
-                  $('#msg-status-content').html('<h4 class="text-success text-center">'+res.msg+'</h4>');
+                  $('#msg-status-content').html('<h4 class="text-success text-center">'+("Success")+'</h4>');
                   $('#msg-sending-form')[0].reset();
               }
               else {
